@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22/01/2017 13:41:05 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="tabelas.Jornal" table="jornal" catalog="sakila" optimistic-lock="version">
+        <composite-id name="id" class="tabelas.JornalId">
+            <key-property name="id" type="int">
+                <column name="id" />
+            </key-property>
+            <key-property name="sequencial" type="int">
+                <column name="sequencial" />
+            </key-property>
+        </composite-id>
+        <property name="nome" type="string">
+            <column name="nome" length="40" />
+        </property>
+    </class>
+</hibernate-mapping>
