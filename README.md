@@ -2,3 +2,4 @@
 - Java
 - Hibernate
 - JPA
+- MySql
