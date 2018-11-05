@@ -1,2 +1,4 @@
-# HibernateTutorial
-Tutorial Hibernate Caelum fj26
+# FJ26 Hibernate
+- Java
+- Hibernate
+- JPA
